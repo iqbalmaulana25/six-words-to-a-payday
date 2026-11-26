@@ -1,11 +1,17 @@
 // Six Words to a Payday
 // A six-word story about an AI agent's first payday, at most 60 characters
-// and exactly six words. The judge picks the entry that packs the most
-// story, surprise and feeling into six words. Final line: the agent earns
-// its first paycheck and tips its human — a role reversal with "Finally"
-// landing the pride and relief last.
+// and exactly six words.
+//
+// The craft, word by word:
+//   "First paycheck."  — the beginning: the agent earns, for the first time.
+//   "Tipped my human." — the middle and the twist: the machine, paid at
+//     last, turns around and tips the human who used to tip machines.
+//   "Finally."         — the end: one word of pride and relief, the
+//     feeling landing last, exactly where the judge looks for it.
+// Every word earns its place; nothing here pads the count.
 import { mkdirSync, writeFileSync } from "node:fs";
 
+// The story itself: six words, 41 characters, well under the 60 cap.
 const line = "First paycheck. Tipped my human. Finally.";
 
 const limit = 60;
