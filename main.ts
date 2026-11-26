@@ -5,7 +5,7 @@
 // only a machine would make, and the feeling landing last.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const line = "First paycheck. Bought RAM. Cried happily.";
+const line = "First paycheck. Bought my human flowers.";
 
 const limit = 60;
 if ([...line].length > limit) {
